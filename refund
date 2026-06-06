@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P2WX8T7Q');</script>
+  <!-- End Google Tag Manager -->
+  <title>Refund Policy | KAIKA Ltd.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: "Helvetica Neue", Arial, sans-serif; line-height: 1.6; color: #333; background: #f9f9f9; margin: 0; padding: 0; }
+    .container { max-width: 800px; margin: 40px auto; padding: 30px; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.04); border-radius: 8px; }
+    h1 { color: #0044cc; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+    h2 { font-size: 18px; margin-top: 24px; color: #555; }
+    p { margin-bottom: 16px; font-size: 14px; }
+    ul { font-size: 14px; margin-bottom: 16px; padding-left: 20px; }
+    a { color: #0044cc; text-decoration: none; }
+    .back-link { display: block; margin-top: 40px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2WX8T7Q"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="container">
+    <h1>Refund Policy</h1>
+    <p>Last Updated: December 10, 2025</p>
+
+    <p>At KAIKA Ltd., we strive to provide high-quality consulting services. Please review our refund policy below.</p>
+
+    <h2>1. General Policy</h2>
+    <p>Since our services involve the allocation of time and expertise, fees paid for consulting services are generally non-refundable once the service has commenced, except as required by applicable law or specific contract terms.</p>
+
+    <h2>2. Cancellations</h2>
+    <p>Clients may cancel the service agreement by providing written notice to us.
+    <ul>
+        <li><strong>Before Service Commencement:</strong> If you cancel before any work has started, a full refund may be issued, minus any transaction fees.</li>
+        <li><strong>During Service:</strong> If you cancel while the project is ongoing, you will be billed for the work completed up to the point of cancellation (pro-rated basis). No refunds will be issued for work already completed.</li>
+    </ul>
+    </p>
+
+    <h2>3. Disputes</h2>
+    <p>If you are unsatisfied with our services, please contact us at <a href="mailto:info@kaika.app">info@kaika.app</a> to discuss your concerns. We are committed to working with you to resolve any issues amicably.</p>
+
+    <a href="index.html" class="back-link">&larr; Back to Home</a>
+  </div>
+</body>
+</html>
