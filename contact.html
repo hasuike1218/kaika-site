@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P2WX8T7Q');</script>
+  <title>Contact | KAIKA Ltd.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: "Helvetica Neue", Arial, sans-serif; line-height: 1.8; color: #333; background: #f9f9f9; margin: 0; padding: 0; }
+    .container { max-width: 800px; margin: 40px auto; padding: 30px; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.04); border-radius: 8px; }
+    h1 { color: #0044cc; border-bottom: 1px solid #eee; padding-bottom: 10px; font-size: 24px; }
+    p, li { font-size: 14px; margin-bottom: 12px; }
+    .form-group { margin-bottom: 20px; }
+    label { display: block; font-size: 14px; font-weight: bold; margin-bottom: 6px; }
+    label .required { color: #cc0000; font-size: 12px; margin-left: 6px; }
+    input[type="text"], input[type="email"], select, textarea { width: 100%; padding: 10px 12px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; box-sizing: border-box; font-family: inherit; }
+    textarea { height: 160px; resize: vertical; }
+    .submit-btn { display: inline-block; padding: 14px 40px; background: #0044cc; color: #fff; border: none; border-radius: 6px; font-size: 15px; cursor: pointer; }
+    .note { font-size: 13px; color: #666; margin-top: 24px; }
+    a { color: #0044cc; }
+    .back-link { display: block; margin-top: 40px; font-size: 14px; }
+    .lang-switch { text-align: right; font-size: 13px; margin-bottom: 20px; }
+    nav a { margin-right: 16px; font-size: 14px; color: #0044cc; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2WX8T7Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <div class="container">
+    <div class="lang-switch"><a href="/ja/contact.html">🇯🇵 日本語</a></div>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="/services.html">Services</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <h1>Contact Us</h1>
+    <p>For inquiries or consultation requests, please fill out the form below or email us directly at <a href="mailto:info@kaika.app">info@kaika.app</a>. We will respond within 2 business days.</p>
+
+    <!-- TODO: Replace YOUR_FORM_ID with your actual Formspree form ID -->
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <div class="form-group">
+        <label>Company / Organization<span class="required">* Required</span></label>
+        <input type="text" name="company" placeholder="ACME Corporation" required>
+      </div>
+      <div class="form-group">
+        <label>Name<span class="required">* Required</span></label>
+        <input type="text" name="name" placeholder="John Smith" required>
+      </div>
+      <div class="form-group">
+        <label>Email Address<span class="required">* Required</span></label>
+        <input type="email" name="email" placeholder="john@example.com" required>
+      </div>
+      <div class="form-group">
+        <label>Phone Number<span class="required"> (Optional)</span></label>
+        <input type="text" name="phone" placeholder="+1-000-000-0000">
+      </div>
+      <div class="form-group">
+        <label>Inquiry Type<span class="required">* Required</span></label>
+        <select name="type" required>
+          <option value="">Please select</option>
+          <option value="Performance Marketing">Performance Marketing</option>
+          <option value="Website & LP Optimization">Website &amp; LP Optimization / UIUX Consulting</option>
+          <option value="Analytics & Tracking">Analytics &amp; Tracking Implementation</option>
+          <option value="Marketing Strategy">Marketing Strategy &amp; Funnel Design</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Message<span class="required">* Required</span></label>
+        <textarea name="message" placeholder="Please describe your inquiry or project in detail." required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+
+    <p class="note">* Information submitted through this form will be used solely to respond to your inquiry. Please refer to our <a href="/privacy.html">Privacy Policy</a> for details.</p>
+
+    <a href="/index.html" class="back-link">← Back to Home</a>
+  </div>
+</body>
+</html>
