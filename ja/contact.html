@@ -75,5 +75,27 @@
 
     <a href="/ja/index.html" class="back-link">← トップに戻る</a>
   </div>
+<script>
+async function submitForm(e) {
+  e.preventDefault();
+  const form = e.target;
+  const btn = form.querySelector('button[type="submit"]');
+  btn.disabled = true;
+  btn.textContent = '送信中...';
+  const data = Object.fromEntries(new FormData(form));
+  try {
+    await fetch("https://script.google.com/macros/s/AKfycbyEFkj6Flgenu8cXoIONBSl_a6o6eh78ANQlIZPmNZyyZacXNWa4IqgY5Jt6AOoY-WWNg/exec", {
+      method: "POST",
+      body: JSON.stringify(data),
+      headers: {"Content-Type": "text/plain"}
+    });
+    window.location.href = "/ja/thanks";
+  } catch(err) {
+    btn.disabled = false;
+    btn.textContent = '送信する';
+    alert('送信に失敗しました。時間をおいて再度お試しください。');
+  }
+}
+</script>
 </body>
 </html>
