@@ -7,42 +7,76 @@
   <meta name="description" content="KAIKA Ltd.は、WEB広告運用・アクセス解析・マーケティング戦略を専門とするグローバルコンサルティングファームです。">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; line-height: 1.8; color: #333; background: #f9f9f9; margin: 0; padding: 0; }
-    .header { background: #fff; padding: 20px; border-bottom: 1px solid #eaeaea; text-align: center; }
-    .header h1 { margin: 0; font-size: 22px; color: #0044cc; }
-    .container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
-    .card { background: #fff; padding: 30px; margin-bottom: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
-    h2 { font-size: 17px; border-left: 4px solid #0044cc; padding-left: 12px; margin-top: 0; }
-    p, li { font-size: 14px; }
-    ul { padding-left: 20px; }
-    .nav-links { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 20px; }
-    .nav-links a { display: inline-block; padding: 12px 24px; background: #0044cc; color: #fff; border-radius: 6px; text-decoration: none; font-size: 14px; }
-    .footer { text-align: center; padding: 30px; font-size: 12px; color: #888; background: #fff; border-top: 1px solid #eaeaea; margin-top: 40px; }
-    .footer a { color: #666; margin: 0 8px; }
-    .lang-switch { text-align: right; font-size: 13px; margin-bottom: 12px; }
+    :root { --primary: #0044cc; }
+    body { font-family: "Hiragino Sans","Hiragino Kaku Gothic ProN",Meiryo,sans-serif; line-height: 1.8; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+    .topbar { background: #fff; border-bottom: 1px solid #eaeaea; padding: 10px 24px; display: flex; justify-content: space-between; align-items: center; }
+    .topbar .logo { font-size: 18px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .topbar nav a { margin-left: 20px; font-size: 14px; color: var(--primary); text-decoration: none; }
+    .topbar .lang { font-size: 13px; }
+    .hero { background: var(--primary); color: #fff; padding: 56px 24px; text-align: center; }
+    .hero h1 { font-size: 26px; margin: 0 0 16px; }
+    .hero p { font-size: 15px; opacity: 0.9; max-width: 520px; margin: 0 auto 32px; }
+    .hero a { display: inline-block; padding: 14px 36px; background: #fff; color: var(--primary); border-radius: 6px; font-weight: bold; text-decoration: none; font-size: 15px; }
+    .container { max-width: 800px; margin: 48px auto; padding: 0 24px; }
+    .card { background: #fff; padding: 32px; margin-bottom: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    h2 { font-size: 17px; border-left: 4px solid var(--primary); padding-left: 12px; margin-top: 0; }
+    ul { padding-left: 20px; font-size: 14px; }
+    li { margin-bottom: 8px; }
+    p { font-size: 14px; margin-bottom: 12px; }
+    .info-grid { display: grid; gap: 10px; font-size: 14px; }
+    .info-row { display: flex; gap: 12px; }
+    .info-label { width: 140px; font-weight: bold; color: #555; flex-shrink: 0; }
+    a { color: var(--primary); }
+    .footer { text-align: center; padding: 32px 20px; font-size: 12px; color: #888; background: #fff; border-top: 1px solid #eaeaea; margin-top: 40px; }
+    .footer a { color: #666; margin: 0 10px; }
   </style>
 </head>
 <body>
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2WX8T7Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <div class="header"><h1>KAIKA Ltd.</h1></div>
+
+  <div class="topbar">
+    <a href="/ja/index.html" class="logo">KAIKA Ltd.</a>
+    <nav>
+      <a href="/ja/services.html">サービス</a>
+      <a href="/ja/about.html">会社概要</a>
+      <a href="/ja/contact.html">お問い合わせ</a>
+    </nav>
+    <span class="lang"><a href="/">🌐 English</a></span>
+  </div>
+
+  <div class="hero">
+    <h1>デジタルマーケティング・グロース支援</h1>
+    <p>データドリブンな戦略立案から広告運用・計測環境の構築まで、貴社の事業成長を一気通貫でご支援します。</p>
+    <a href="/ja/services.html">サービスを見る</a>
+  </div>
+
   <div class="container">
-    <div class="lang-switch"><a href="/" style="color:#0044cc;">🌐 English</a></div>
     <div class="card">
-      <h2>日本のお客様へ</h2>
-      <p>KAIKA Ltd. は、WEB広告運用・アクセス解析・マーケティング戦略を専門とするグローバルコンサルティングファームです。日本法人・日本在住のお客様に向け、日本語でのサービス提供・契約対応が可能です。</p>
-      <div class="nav-links">
-        <a href="/ja/services.html">サービス・料金</a>
-        <a href="/ja/about.html">会社概要</a>
-        <a href="/ja/contact.html">お問い合わせ</a>
+      <h2>提供サービス</h2>
+      <ul>
+        <li>WEB広告運用支援（Google, Meta, TikTok等）</li>
+        <li>WEBサイト・LPの企画改善 / UIUXコンサルティング</li>
+        <li>アクセス解析・計測環境の構築（GA4, GTM）</li>
+        <li>マーケティング戦略およびファネル設計支援</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>会社概要</h2>
+      <div class="info-grid">
+        <div class="info-row"><span class="info-label">会社名</span><span>KAIKA Ltd.</span></div>
+        <div class="info-row"><span class="info-label">所在地</span><span>Trust Company Complex, Ajeltake Road, Ajeltake Island, Majuro, Marshall Islands MH96960</span></div>
+        <div class="info-row"><span class="info-label">代表者</span><span>蓮池 良平（HASUIKE Ryohei）</span></div>
+        <div class="info-row"><span class="info-label">お問い合わせ</span><span><a href="mailto:info@kaika.app">info@kaika.app</a></span></div>
       </div>
     </div>
   </div>
+
   <footer class="footer">
     <a href="/ja/privacy.html">プライバシーポリシー</a>
     <a href="/terms.html">Terms of Service</a>
     <a href="/refund.html">Refund Policy</a>
     <a href="mailto:info@kaika.app">Contact</a>
-    <p>© 2026 KAIKA Ltd. All Rights Reserved.</p>
+    <p>&copy; 2026 KAIKA Ltd. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
